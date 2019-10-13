@@ -11,5 +11,5 @@ async def hello(ctx):
     author = ctx.message.author
     await ctx.send("q")
 
-token = os.environ.get('BOT TOKEN')
+token = os.environ.get('BOT_TOKEN')
 Bot.run(str(token))
