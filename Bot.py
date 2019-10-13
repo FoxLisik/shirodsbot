@@ -1,13 +1,14 @@
-from __init__ import *
+import discord
+import os
 
-# Простой бот которы нужен только для примера либо же для "фундамента"
+from discord.ext import commands
+from discord.ext.commands import Bot
 
-@Bot.event
-async def on_ready():
-    print("online")
+Bot = commands.Bot(command_prefix= "!s")
 
 @Bot.command()
 async def hello(ctx):
-    await ctx.send(f"Hello {ctx.message.author.mention}")
+    author = ctx.message.author
+    await ctx.send("q")
 
-Bot.run(token)
+token = os.environ.get('BOT TOKEN')
