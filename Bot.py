@@ -17,7 +17,7 @@ async def USE CODE(ctx):
     await ctx.send("SFZD")
 
 @Bot.command()
-async def Артем(ctx):
+async def ApTeM(ctx):
     author = ctx.message.author
     await ctx.send("ЕБЛАН БЛЯТЬ КОНЧЕНЫЙ")
 
