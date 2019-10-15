@@ -12,7 +12,7 @@ async def info(ctx):
     await ctx.send("Этот бот в разроботке! Вы можете предложить свои идеи и высказать недовольство тут: https://discord.gg/ykdtjYY")
     
 @Bot.command()
-async def USE CODE(ctx):
+async def CREATOR CODE(ctx):
     author = ctx.message.author
     await ctx.send("SFZD")
 
