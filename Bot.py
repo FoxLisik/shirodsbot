@@ -6,6 +6,10 @@ from discord.ext.commands import Bot
 
 Bot = commands.Bot(command_prefix= "!s ")
 
+@Bot.event()
+async def on_ready():
+    print('дарова ептый')
+
 @Bot.command()
 async def info(ctx):
     author = ctx.message.author
