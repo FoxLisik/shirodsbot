@@ -18,12 +18,6 @@ async def info(ctx):
     await ctx.send("Этот бот в разроботке! Вы можете предложить свои идеи и высказать недовольство тут: https://discord.gg/ykdtjYY")
 
 @Bot.command()
-async def ping(ctx):
-    author = ctx.message.author
-    await ctx.send(f"Ping = {round(Bot.latency * 1000)}ms!")
-    
-
-@Bot.command()
 @commands.has_permission(administrator= True)
 async def mute(ctx, member: discord.Member):
     mute_role = discord.utils.get(ctx.message.guild.roles, name= 'таймач😫')
