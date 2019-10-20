@@ -10,7 +10,7 @@ Bot = commands.Bot(command_prefix= "s!")
 @Bot.command()
 async def info(ctx):
     author = ctx.message.author
-    await ctx.send("Этот бот в разроботке! Вы можете предложить свои идеи и высказать недовольство тут: https://discord.gg/ykdtjYY")
+    await ctx.send("Bot's sever for your suggestions: https://discord.gg/UDCByP2")
 
 token = os.environ.get('BOT_TOKEN')
 Bot.run(str(token))
