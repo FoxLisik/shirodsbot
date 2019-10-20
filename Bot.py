@@ -19,6 +19,7 @@ async def info(ctx):
 
 @Bot.command()
 async def ping(ctx):
+    author = ctx.message.author
     await ctx.send('Ping = {round(Bot.latency * 1000)}ms!')
 
 
