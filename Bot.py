@@ -20,7 +20,15 @@ async def info(ctx):
 @Bot.command()
 async def ping(ctx):
     author = ctx.message.author
-    await ctx.send('Ping = {round(Bot.latency * 1000)}ms!')
+    await ctx.send(f'Ping = {round(Bot.latency * 1000)}ms!')
+    
+
+@Bot.command()
+@commands.has_permission(administrator= True)
+async def mute(ctx, member: discord.Member):
+    mute_role = discord.utils.get(ctx.message.guild.roles, name= 'таймач😫')
+    await member.add_roles(mute_role)
+
 
 
 token = os.environ.get('BOT_TOKEN')
