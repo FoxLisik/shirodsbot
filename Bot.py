@@ -6,11 +6,6 @@ from discord.ext.commands import Bot
 
 
 Bot = commands.Bot(command_prefix= "s!")
-
-
-@Bot.event()
-async def on_ready():
-    print('shiro online')
     
 @Bot.command()
 async def info(ctx):
