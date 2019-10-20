@@ -17,5 +17,11 @@ async def mute(ctx, member: discord.Member):
     mute_role = discord.utils.get(ctx.message.guild.roles, name= 'таймач😫')
     await member.add_roles(mute_role)
     
+@Bot.command()
+@commands.has_permissions(administrator= True)
+async def unmute(ctx, member: discord.Member):
+    mute_role = discord.utils.get(ctx.message.guild.roles, name= 'таймач😫')
+    await member.fetch_roles(mute_role)
+    
 token = os.environ.get('BOT_TOKEN')
 Bot.run(str(token))
