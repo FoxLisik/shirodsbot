@@ -8,9 +8,9 @@ from discord.ext.commands import Bot
 Bot = commands.Bot(command_prefix= "s!")
     
 @Bot.command()
-async def info(ctx):
+async def 123(ctx):
     author = ctx.message.author
-    await ctx.send("Bot's sever for your suggestions: https://discord.gg/UDCByP2")
+    await ctx.send("@everyone CACATЬ")
 
 token = os.environ.get('BOT_TOKEN')
 Bot.run(str(token))
