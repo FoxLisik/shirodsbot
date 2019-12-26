@@ -10,7 +10,7 @@ Bot = commands.Bot(command_prefix= "s!")
 @Bot.command()
 async def 123(ctx):
     author = ctx.message.author
-    await ctx.send("@everyone CACATЬ")
+    await ctx.send("CACATЬ ВСЕМ НАХУЙ")
 
 token = os.environ.get('BOT_TOKEN')
 Bot.run(str(token))
