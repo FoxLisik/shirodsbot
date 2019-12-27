@@ -8,7 +8,7 @@ from discord.ext.commands import Bot
 Bot = commands.Bot(command_prefix= "s!")
     
 @Bot.command()
-async def shiro(ctx):
+async def qwertyqwertyqwerty(ctx):
     author = ctx.message.author
     await ctx.send("CACATЬ ВСЕМ НАХУЙ")
 
