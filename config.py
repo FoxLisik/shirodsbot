@@ -1,9 +1,9 @@
-#TOKEN = 
+TOKEN = os.environ.get('TOKEN')
 
 POST_ID = 689449918800199681
 
 ROLES = {
-    '': 606179072623640584, #  
+    ':pepeJAM:': 606179072623640584, #  :pepeJAM:
 }
 
 EXCROLES = ()
