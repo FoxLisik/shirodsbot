@@ -5,6 +5,12 @@ import discord
 from discord import utils
  
 import config
+
+@Bot.command()
+async def cykaaa(ctx):
+    author = ctx.message.author
+    await ctx.send('Если вы хотите получить роль @DJ , то вам нужно нажать на реакцию под этим сообщением')
+
  
 class MyClient(discord.Client):
     async def on_ready(self):
