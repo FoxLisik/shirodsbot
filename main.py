@@ -1,5 +1,5 @@
 #https://discordapp.com/api/oauth2/authorize?client_id=632903118014775317&permissions=8&scope=bot
-#NjMyOTAzMTE4MDE0Nzc1MzE3.XnC5rQ.69GTMDCjMxVqKcA13FS-Hgp6gOc
+#
 
 import discord
 from discord import utils
