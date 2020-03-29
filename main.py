@@ -2,6 +2,7 @@
 #
 
 import discord
+import os
 from discord import utils
  
 import config
