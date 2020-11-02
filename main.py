@@ -12,5 +12,7 @@ async def hello(ctx):
     author = ctx.message.author
     await Bot.send('Привет')
 
-Bot.run('NjMyOTAzMTE4MDE0Nzc1MzE3.XaMK9g._tXPG8qt-xmaHIb_hKuqHIKZ5UI')
+# RUN
+#Bot = MyClient()
+Bot.run(config.TOKEN)
 
