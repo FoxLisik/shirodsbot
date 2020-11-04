@@ -14,5 +14,5 @@ async def hello(ctx):
 
 # RUN
 #Bot = MyClient()
-Bot.run(config.TOKEN)
+Bot.run(TOKEN)
 
