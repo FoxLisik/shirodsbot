@@ -13,6 +13,6 @@ async def hello(ctx):
     await Bot.send('Привет')
 
 # RUN
-#Bot = MyClient()
+Bot = MyClient()
 Bot.run(TOKEN)
 
