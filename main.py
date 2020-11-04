@@ -1,5 +1,4 @@
 #https://discordapp.com/api/oauth2/authorize?client_id=632903118014775317&permissions=8&scope=bot
-#
 
 import discord
 from discord.ext import commands
